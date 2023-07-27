@@ -1,0 +1,104 @@
+.button-remove {
+    /* Estilos para o botão "Remover" */
+    border: 1px solid rgb(255, 105, 105);
+    border-radius: 5px;
+    background-color: rgb(255, 227, 227);
+    color: rgb(255, 105, 105);
+    text-align: center;
+    padding: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+   background-image: url(https://images.hdqwalls.com/download/abstract-cool-pattern-fg-1920x1080.jpg);
+   }
+  h1{
+    color: #dfe1e2;
+    text-shadow: 2px 2px 4px #8bd9f8;
+    text-align: center;
+    margin: 25 auto;
+  }  
+
+   .content {
+
+     width: auto;
+    margin: 25vh;
+    padding: 25px;
+    margin-top: 25vh;
+   
+  } 
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #000000;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  
+  label, input {
+    margin-bottom: 25px;
+  } 
+  
+   button {
+    padding: 10px 20px;
+    background-color: #0bbbe7;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5cf1de;
+  } 
+  
+   #result {
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #fc0f07;
+    border-radius: 15px;
+    border: 5px solid #0632f5;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+   
+  } 
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 18, 18);
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  :checked + label {
+    text-decoration: line-through;
+    color: rgb(246, 63, 13);
+  }
+  .button-remove {
+      /* Estilos para o botão "Remover" */
+      border: 1px solid rgb(239, 9, 9);
+      border-radius: 5px;
+      background-color: rgb(234, 49, 12);
+      color: rgb(10, 202, 241);
+      text-align: center;
+      padding: 5px;
+      margin-left: 150px;
+  }
